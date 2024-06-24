@@ -1,0 +1,21 @@
+{
+  "name": "flatbuffers",
+  "version": "23.5.26",
+  "description": "FlatBuffers is a cross platform serialization library architected for maximum memory efficiency. It allows you to directly access serialized data without parsing/unpacking it first, while still having great forwards/backwards compatibility.",
+  "keywords": ["flatbuffers", "serialization", "protocol", "buffer", "binary"],
+  "homepage": "https://flatbuffers.dev/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/flatbuffers.git"
+  },
+  "authors": {
+    "name": "Google Inc."
+  },
+  "license": "Apache-2.0",
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "srcDir": "include",
+    "includeDir": "include"
+  }
+}
